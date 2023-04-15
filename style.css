@@ -1,0 +1,253 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Jost', sans-serif;
+  font-size: 16px;
+  background-color: #f7f7f7;
+  width: 100%;
+
+}
+
+header {
+  background-color: #f8f8f8;
+  text-align: center;
+  padding: 20px;
+}
+
+img {
+	float: center;
+	display: flex;
+}
+
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: , sans-serif;
+    }
+
+    .column {
+        float: left;
+        width: 25%;
+        padding: 0 10px;
+    }
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+    @media screen and (max-width: 600px) {
+        .column {
+            width: 100%;
+            display: block;
+            margin-bottom: 20px;
+        }
+    }
+
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        padding: 16px;
+        text-align: center;
+        background-color: #f1f1f1;
+    }
+
+h1 {
+	color: #000000;
+	 font-family: 'Jost', sans-serif;
+	font-size: 30px;
+	text-align: right;
+}
+hr { background:none;
+	 border:none;
+}
+h2 {
+	color: #aa666a;
+	 font-family: 'Dancing Script', cursive;
+	font-size: 40px;
+	text-align: left;
+}
+
+h3 {
+	color: #ffffff;
+	 font-family: 'Jost', sans-serif;
+	font-size: 30px;
+	text-align: right;
+	padding: 0px 20px;
+	background-color:#367d78;
+
+}
+
+p {
+ font-family: 'Jost', sans-serif;
+	font-size: 18px;
+	text-indent: 10px;
+	text-align: left;
+}
+
+a:link, a:visited {
+	background-color: none;
+	color: #2f6d69;
+	 font-family: 'Jost', sans-serif;
+	font-size: 15px;
+	text-align: left;
+	display: inline-block;
+	vertical-align: middle;
+	text-decoration: none;
+	padding: 5px 15px;
+	
+}
+
+    a:hover {
+        background-color: #b22525;
+        color: #000000;
+        font-family: 'Jost', sans-serif;
+        font-size: 15px;
+        text-align: left-justify;
+        display: inline-block;
+        text-decoration: underline;
+        padding: 5px 15px;
+    }	
+
+.navbar {
+  overflow: hidden;
+  background-color: #ffffff;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: right;
+  padding: 14px 16px;
+  opacity: 80%;
+
+}
+
+.navbar a {
+  display:inline-block;
+  vertical-align: middle;
+  text-align: right;
+  font-size: 16px;
+  color: #000000;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin: 0;
+
+}
+
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #b22525;
+  color: white;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+    .dropdown-content a:hover {
+        background: #b22525;
+        display: block;
+        transition: 0.2s linear;
+    }
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;        
+    }
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.search-container {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 80%;
+  max-width: 500px;
+}
+
+button {
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+  background-color: #4c5b2c;
+  color: white;
+  cursor: pointer;
+  width: 20%;
+  max-width: 100px;
+}
+
+.recipe-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.recipe-card {
+  margin-bottom: 20px;
+  width: calc(33.33% - 10px);
+  background-color: #f8f8f8;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.recipe-title {
+  font-weight: bold;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.recipe-image {
+  text-align: center;
+}
+
+.recipe-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.recipe-steps {
+  padding: 10px;
+}
+
+.recipe-steps ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.recipe-steps li {
+  margin-bottom: 5px;
+}
